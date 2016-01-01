@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>03-二维数组的基本使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>05-二维数组与函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>10-字符串.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>8263C1B41FBE005B0054E685</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82860C371C360E8B004C07A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82EFC9791FC85D4000CCC045</key>
 		<dict>
 			<key>primary</key>
 			<true/>

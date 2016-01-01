@@ -10,6 +10,8 @@
 		8263C1AB1FBE00370054E685 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8263C1AA1FBE00370054E685 /* main.c */; };
 		8263C1B81FBE005B0054E685 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8263C1B71FBE005B0054E685 /* main.c */; };
 		8263C1BE1FBE00A30054E685 /* hmArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 8263C1BC1FBE00A30054E685 /* hmArray.c */; };
+		82860C3B1C360E8B004C07A1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82860C3A1C360E8B004C07A1 /* main.c */; };
+		82EFC97D1FC85D4000CCC045 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82EFC97C1FC85D4000CCC045 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		82860C361C360E8B004C07A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		82EFC9781FC85D4000CCC045 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +60,10 @@
 		8263C1B71FBE005B0054E685 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8263C1BC1FBE00A30054E685 /* hmArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmArray.c; sourceTree = "<group>"; };
 		8263C1BD1FBE00A30054E685 /* hmArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmArray.h; sourceTree = "<group>"; };
+		82860C381C360E8B004C07A1 /* 05-二维数组与函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-二维数组与函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82860C3A1C360E8B004C07A1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82EFC97A1FC85D4000CCC045 /* 03-二维数组的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-二维数组的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EFC97C1FC85D4000CCC045 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +81,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82860C351C360E8B004C07A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EFC9771FC85D4000CCC045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +103,8 @@
 			children = (
 				8263C1A91FBE00370054E685 /* 10-字符串 */,
 				8263C1B61FBE005B0054E685 /* 02-作业讲解 */,
+				82EFC97B1FC85D4000CCC045 /* 03-二维数组的基本使用 */,
+				82860C391C360E8B004C07A1 /* 05-二维数组与函数 */,
 				8263C1A81FBE00370054E685 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +114,8 @@
 			children = (
 				8263C1A71FBE00370054E685 /* 10-字符串 */,
 				8263C1B51FBE005B0054E685 /* 02-作业讲解 */,
+				82EFC97A1FC85D4000CCC045 /* 03-二维数组的基本使用 */,
+				82860C381C360E8B004C07A1 /* 05-二维数组与函数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +136,22 @@
 				8263C1BD1FBE00A30054E685 /* hmArray.h */,
 			);
 			path = "02-作业讲解";
+			sourceTree = "<group>";
+		};
+		82860C391C360E8B004C07A1 /* 05-二维数组与函数 */ = {
+			isa = PBXGroup;
+			children = (
+				82860C3A1C360E8B004C07A1 /* main.c */,
+			);
+			path = "05-二维数组与函数";
+			sourceTree = "<group>";
+		};
+		82EFC97B1FC85D4000CCC045 /* 03-二维数组的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				82EFC97C1FC85D4000CCC045 /* main.c */,
+			);
+			path = "03-二维数组的基本使用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +191,40 @@
 			productReference = 8263C1B51FBE005B0054E685 /* 02-作业讲解 */;
 			productType = "com.apple.product-type.tool";
 		};
+		82860C371C360E8B004C07A1 /* 05-二维数组与函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82860C3E1C360E8B004C07A1 /* Build configuration list for PBXNativeTarget "05-二维数组与函数" */;
+			buildPhases = (
+				82860C341C360E8B004C07A1 /* Sources */,
+				82860C351C360E8B004C07A1 /* Frameworks */,
+				82860C361C360E8B004C07A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-二维数组与函数";
+			productName = "05-二维数组与函数";
+			productReference = 82860C381C360E8B004C07A1 /* 05-二维数组与函数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		82EFC9791FC85D4000CCC045 /* 03-二维数组的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EFC9801FC85D4000CCC045 /* Build configuration list for PBXNativeTarget "03-二维数组的基本使用" */;
+			buildPhases = (
+				82EFC9761FC85D4000CCC045 /* Sources */,
+				82EFC9771FC85D4000CCC045 /* Frameworks */,
+				82EFC9781FC85D4000CCC045 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-二维数组的基本使用";
+			productName = "03-二维数组的基本使用";
+			productReference = 82EFC97A1FC85D4000CCC045 /* 03-二维数组的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,6 +238,12 @@
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					8263C1B41FBE005B0054E685 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					82860C371C360E8B004C07A1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					82EFC9791FC85D4000CCC045 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -164,6 +262,8 @@
 			targets = (
 				8263C1A61FBE00370054E685 /* 10-字符串 */,
 				8263C1B41FBE005B0054E685 /* 02-作业讲解 */,
+				82EFC9791FC85D4000CCC045 /* 03-二维数组的基本使用 */,
+				82860C371C360E8B004C07A1 /* 05-二维数组与函数 */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +283,22 @@
 			files = (
 				8263C1BE1FBE00A30054E685 /* hmArray.c in Sources */,
 				8263C1B81FBE005B0054E685 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82860C341C360E8B004C07A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82860C3B1C360E8B004C07A1 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EFC9761FC85D4000CCC045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EFC97D1FC85D4000CCC045 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +412,34 @@
 			};
 			name = Release;
 		};
+		82860C3C1C360E8B004C07A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82860C3D1C360E8B004C07A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82EFC97E1FC85D4000CCC045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82EFC97F1FC85D4000CCC045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -315,6 +459,7 @@
 				8263C1B01FBE00370054E685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8263C1B91FBE005B0054E685 /* Build configuration list for PBXNativeTarget "02-作业讲解" */ = {
 			isa = XCConfigurationList;
@@ -323,6 +468,24 @@
 				8263C1BB1FBE005B0054E685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82860C3E1C360E8B004C07A1 /* Build configuration list for PBXNativeTarget "05-二维数组与函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82860C3C1C360E8B004C07A1 /* Debug */,
+				82860C3D1C360E8B004C07A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82EFC9801FC85D4000CCC045 /* Build configuration list for PBXNativeTarget "03-二维数组的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EFC97E1FC85D4000CCC045 /* Debug */,
+				82EFC97F1FC85D4000CCC045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
