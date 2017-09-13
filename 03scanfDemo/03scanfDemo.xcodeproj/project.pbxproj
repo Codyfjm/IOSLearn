@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		824DAD041F681A0E00407A31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824DAD031F681A0E00407A31 /* main.c */; };
 		824DAD111F6829AC00407A31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824DAD101F6829AC00407A31 /* main.c */; };
+		82C446A81F697EEB003E4D4A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C446A71F697EEB003E4D4A /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		82C446A31F697EEB003E4D4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		824DAD031F681A0E00407A31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		824DAD0E1F6829AC00407A31 /* 03-scanf函数的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-scanf函数的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824DAD101F6829AC00407A31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82C446A51F697EEB003E4D4A /* 04-scanf函数的其它用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-scanf函数的其它用法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C446A71F697EEB003E4D4A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82C446A21F697EEB003E4D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				824DAD021F681A0E00407A31 /* 03scanfDemo */,
 				824DAD0F1F6829AC00407A31 /* 03-scanf函数的使用 */,
+				82C446A61F697EEB003E4D4A /* 04-scanf函数的其它用法 */,
 				824DAD011F681A0E00407A31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				824DAD001F681A0E00407A31 /* 03scanfDemo */,
 				824DAD0E1F6829AC00407A31 /* 03-scanf函数的使用 */,
+				82C446A51F697EEB003E4D4A /* 04-scanf函数的其它用法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				824DAD101F6829AC00407A31 /* main.c */,
 			);
 			path = "03-scanf函数的使用";
+			sourceTree = "<group>";
+		};
+		82C446A61F697EEB003E4D4A /* 04-scanf函数的其它用法 */ = {
+			isa = PBXGroup;
+			children = (
+				82C446A71F697EEB003E4D4A /* main.c */,
+			);
+			path = "04-scanf函数的其它用法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = 824DAD0E1F6829AC00407A31 /* 03-scanf函数的使用 */;
 			productType = "com.apple.product-type.tool";
 		};
+		82C446A41F697EEB003E4D4A /* 04-scanf函数的其它用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C446AB1F697EEB003E4D4A /* Build configuration list for PBXNativeTarget "04-scanf函数的其它用法" */;
+			buildPhases = (
+				82C446A11F697EEB003E4D4A /* Sources */,
+				82C446A21F697EEB003E4D4A /* Frameworks */,
+				82C446A31F697EEB003E4D4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-scanf函数的其它用法";
+			productName = "04-scanf函数的其它用法";
+			productReference = 82C446A51F697EEB003E4D4A /* 04-scanf函数的其它用法 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +187,9 @@
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					824DAD0D1F6829AC00407A31 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					82C446A41F697EEB003E4D4A = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -159,6 +208,7 @@
 			targets = (
 				824DACFF1F681A0E00407A31 /* 03scanfDemo */,
 				824DAD0D1F6829AC00407A31 /* 03-scanf函数的使用 */,
+				82C446A41F697EEB003E4D4A /* 04-scanf函数的其它用法 */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				824DAD111F6829AC00407A31 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C446A11F697EEB003E4D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C446A81F697EEB003E4D4A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +348,20 @@
 			};
 			name = Release;
 		};
+		82C446A91F697EEB003E4D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82C446AA1F697EEB003E4D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,12 +381,22 @@
 				824DAD091F681A0E00407A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824DAD121F6829AC00407A31 /* Build configuration list for PBXNativeTarget "03-scanf函数的使用" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				824DAD131F6829AC00407A31 /* Debug */,
 				824DAD141F6829AC00407A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C446AB1F697EEB003E4D4A /* Build configuration list for PBXNativeTarget "04-scanf函数的其它用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C446A91F697EEB003E4D4A /* Debug */,
+				82C446AA1F697EEB003E4D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
