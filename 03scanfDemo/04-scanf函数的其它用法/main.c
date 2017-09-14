@@ -35,7 +35,4 @@ int main(int argc, const char * argv[]) {
 //    printf("请输入两个数据：");
 //    scanf("%d%d",&num1,&num2);
 //    printf("num1 = %d num2 = %d\n",num1,num2);
-    
-    
-    return 0;
 }
