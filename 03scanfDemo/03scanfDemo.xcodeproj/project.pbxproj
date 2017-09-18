@@ -12,6 +12,7 @@
 		824DAD041F681A0E00407A31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824DAD031F681A0E00407A31 /* main.c */; };
 		824DAD111F6829AC00407A31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824DAD101F6829AC00407A31 /* main.c */; };
 		82C446A81F697EEB003E4D4A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C446A71F697EEB003E4D4A /* main.c */; };
+		82D624B61F700BE000946AC6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82D624B51F700BE000946AC6 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		82D624B11F700BE000946AC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +83,8 @@
 		824DAD101F6829AC00407A31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82C446A51F697EEB003E4D4A /* 04-scanf函数的其它用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-scanf函数的其它用法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C446A71F697EEB003E4D4A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82D624B31F700BE000946AC6 /* 07-算术运算符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-算术运算符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D624B51F700BE000946AC6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82D624B01F700BE000946AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -139,6 +158,7 @@
 				82C446A61F697EEB003E4D4A /* 04-scanf函数的其它用法 */,
 				8243A8D71F6ABBDC00D980A8 /* 05-scanf函数的缓冲区 */,
 				8243A8E21F6AD83300D980A8 /* 06-交换两个变量的值 */,
+				82D624B41F700BE000946AC6 /* 07-算术运算符 */,
 				824DAD011F681A0E00407A31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,6 +171,7 @@
 				82C446A51F697EEB003E4D4A /* 04-scanf函数的其它用法 */,
 				8243A8D61F6ABBDC00D980A8 /* 05-scanf函数的缓冲区 */,
 				8243A8E11F6AD83300D980A8 /* 09-交换两个变量的值 */,
+				82D624B31F700BE000946AC6 /* 07-算术运算符 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +198,14 @@
 				82C446A71F697EEB003E4D4A /* main.c */,
 			);
 			path = "04-scanf函数的其它用法";
+			sourceTree = "<group>";
+		};
+		82D624B41F700BE000946AC6 /* 07-算术运算符 */ = {
+			isa = PBXGroup;
+			children = (
+				82D624B51F700BE000946AC6 /* main.c */,
+			);
+			path = "07-算术运算符";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +296,23 @@
 			productReference = 82C446A51F697EEB003E4D4A /* 04-scanf函数的其它用法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		82D624B21F700BE000946AC6 /* 07-算术运算符 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D624B91F700BE000946AC6 /* Build configuration list for PBXNativeTarget "07-算术运算符" */;
+			buildPhases = (
+				82D624AF1F700BE000946AC6 /* Sources */,
+				82D624B01F700BE000946AC6 /* Frameworks */,
+				82D624B11F700BE000946AC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-算术运算符";
+			productName = "07-算术运算符";
+			productReference = 82D624B31F700BE000946AC6 /* 07-算术运算符 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -291,6 +337,9 @@
 					82C446A41F697EEB003E4D4A = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					82D624B21F700BE000946AC6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 824DACFB1F681A0E00407A31 /* Build configuration list for PBXProject "03scanfDemo" */;
@@ -310,6 +359,7 @@
 				82C446A41F697EEB003E4D4A /* 04-scanf函数的其它用法 */,
 				8243A8D51F6ABBDC00D980A8 /* 05-scanf函数的缓冲区 */,
 				8243A8E01F6AD83300D980A8 /* 09-交换两个变量的值 */,
+				82D624B21F700BE000946AC6 /* 07-算术运算符 */,
 			);
 		};
 /* End PBXProject section */
@@ -352,6 +402,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				82C446A81F697EEB003E4D4A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D624AF1F700BE000946AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D624B61F700BE000946AC6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +565,20 @@
 			};
 			name = Release;
 		};
+		82D624B71F700BE000946AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82D624B81F700BE000946AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -517,6 +589,7 @@
 				8243A8DB1F6ABBDC00D980A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8243A8E51F6AD83300D980A8 /* Build configuration list for PBXNativeTarget "09-交换两个变量的值" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +598,7 @@
 				8243A8E71F6AD83300D980A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824DACFB1F681A0E00407A31 /* Build configuration list for PBXProject "03scanfDemo" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +635,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		82D624B91F700BE000946AC6 /* Build configuration list for PBXNativeTarget "07-算术运算符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D624B71F700BE000946AC6 /* Debug */,
+				82D624B81F700BE000946AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>07-算术运算符.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>09-交换两个变量的值.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>82C446A41F697EEB003E4D4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82D624B21F700BE000946AC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
