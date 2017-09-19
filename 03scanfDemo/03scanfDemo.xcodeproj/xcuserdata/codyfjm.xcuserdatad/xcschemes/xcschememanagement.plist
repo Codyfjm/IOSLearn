@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>08-符合赋值运算符.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>09-交换两个变量的值.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -63,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>82D624B21F700BE000946AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82EB98EE1F715A1D00D99EB1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
