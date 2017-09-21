@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8233F91B1F73FD58004E6346 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8233F91A1F73FD58004E6346 /* main.c */; };
 		824C879E1F72A307008068AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824C879D1F72A307008068AB /* main.c */; };
 		824C87AB1F72A5FD008068AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824C87AA1F72A5FD008068AB /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8233F9161F73FD58004E6346 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		824C87981F72A307008068AB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8233F9181F73FD58004E6346 /* 10-如何产生1个随机数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-如何产生1个随机数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8233F91A1F73FD58004E6346 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		824C879A1F72A307008068AB /* 04－流程控制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04－流程控制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824C879D1F72A307008068AB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		824C87A81F72A5FD008068AB /* 02-作业讲解 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-作业讲解"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8233F9151F73FD58004E6346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		824C87971F72A307008068AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,11 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8233F9191F73FD58004E6346 /* 10-如何产生1个随机数 */ = {
+			isa = PBXGroup;
+			children = (
+				8233F91A1F73FD58004E6346 /* main.c */,
+			);
+			path = "10-如何产生1个随机数";
+			sourceTree = "<group>";
+		};
 		824C87911F72A307008068AB = {
 			isa = PBXGroup;
 			children = (
 				824C879C1F72A307008068AB /* 04－流程控制 */,
 				824C87A91F72A5FD008068AB /* 02-作业讲解 */,
+				8233F9191F73FD58004E6346 /* 10-如何产生1个随机数 */,
 				824C879B1F72A307008068AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +99,7 @@
 			children = (
 				824C879A1F72A307008068AB /* 04－流程控制 */,
 				824C87A81F72A5FD008068AB /* 02-作业讲解 */,
+				8233F9181F73FD58004E6346 /* 10-如何产生1个随机数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8233F9171F73FD58004E6346 /* 10-如何产生1个随机数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8233F91E1F73FD58004E6346 /* Build configuration list for PBXNativeTarget "10-如何产生1个随机数" */;
+			buildPhases = (
+				8233F9141F73FD58004E6346 /* Sources */,
+				8233F9151F73FD58004E6346 /* Frameworks */,
+				8233F9161F73FD58004E6346 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-如何产生1个随机数";
+			productName = "10-如何产生1个随机数";
+			productReference = 8233F9181F73FD58004E6346 /* 10-如何产生1个随机数 */;
+			productType = "com.apple.product-type.tool";
+		};
 		824C87991F72A307008068AB /* 04－流程控制 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 824C87A11F72A307008068AB /* Build configuration list for PBXNativeTarget "04－流程控制" */;
@@ -137,6 +183,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cody;
 				TargetAttributes = {
+					8233F9171F73FD58004E6346 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					824C87991F72A307008068AB = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -159,11 +208,20 @@
 			targets = (
 				824C87991F72A307008068AB /* 04－流程控制 */,
 				824C87A71F72A5FD008068AB /* 02-作业讲解 */,
+				8233F9171F73FD58004E6346 /* 10-如何产生1个随机数 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8233F9141F73FD58004E6346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8233F91B1F73FD58004E6346 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		824C87961F72A307008068AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +241,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8233F91C1F73FD58004E6346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8233F91D1F73FD58004E6346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		824C879F1F72A307008068AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -293,6 +365,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8233F91E1F73FD58004E6346 /* Build configuration list for PBXNativeTarget "10-如何产生1个随机数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8233F91C1F73FD58004E6346 /* Debug */,
+				8233F91D1F73FD58004E6346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		824C87951F72A307008068AB /* Build configuration list for PBXProject "04－流程控制" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -309,6 +389,7 @@
 				824C87A31F72A307008068AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824C87AC1F72A5FD008068AB /* Build configuration list for PBXNativeTarget "02-作业讲解" */ = {
 			isa = XCConfigurationList;
@@ -317,6 +398,7 @@
 				824C87AE1F72A5FD008068AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
