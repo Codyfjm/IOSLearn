@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821A71471F7A9B3500FFFAE7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 821A71461F7A9B3500FFFAE7 /* main.c */; };
 		824FF0741F762423006CF0B3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824FF0731F762423006CF0B3 /* main.c */; };
 		824FF0811F7632D7006CF0B3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824FF0801F7632D7006CF0B3 /* main.c */; };
+		828C8F431F793E9D00DC3068 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 828C8F421F793E9D00DC3068 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		821A71421F7A9B3500FFFAE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		824FF06E1F762423006CF0B3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -30,16 +41,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		828C8F3E1F793E9D00DC3068 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		821A71441F7A9B3500FFFAE7 /* 04-打印三角形状 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-打印三角形状"; sourceTree = BUILT_PRODUCTS_DIR; };
+		821A71461F7A9B3500FFFAE7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		824FF0701F762423006CF0B3 /* 05-循环控制结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-循环控制结构"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824FF0731F762423006CF0B3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		824FF07E1F7632D7006CF0B3 /* 03-题目3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-题目3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824FF0801F7632D7006CF0B3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		828C8F401F793E9D00DC3068 /* 03-循环应用之计数与穷举 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-循环应用之计数与穷举"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828C8F421F793E9D00DC3068 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		821A71411F7A9B3500FFFAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		824FF06D1F762423006CF0B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,14 +85,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		828C8F3D1F793E9D00DC3068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		821A71451F7A9B3500FFFAE7 /* 04-打印三角形状 */ = {
+			isa = PBXGroup;
+			children = (
+				821A71461F7A9B3500FFFAE7 /* main.c */,
+			);
+			path = "04-打印三角形状";
+			sourceTree = "<group>";
+		};
 		824FF0671F762423006CF0B3 = {
 			isa = PBXGroup;
 			children = (
 				824FF0721F762423006CF0B3 /* 01-作业讲解 */,
 				824FF07F1F7632D7006CF0B3 /* 03-题目3 */,
+				828C8F411F793E9D00DC3068 /* 03-循环应用之计数与穷举 */,
+				821A71451F7A9B3500FFFAE7 /* 04-打印三角形状 */,
 				824FF0711F762423006CF0B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +119,8 @@
 			children = (
 				824FF0701F762423006CF0B3 /* 05-循环控制结构 */,
 				824FF07E1F7632D7006CF0B3 /* 03-题目3 */,
+				828C8F401F793E9D00DC3068 /* 03-循环应用之计数与穷举 */,
+				821A71441F7A9B3500FFFAE7 /* 04-打印三角形状 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,9 +142,34 @@
 			path = "03-题目3";
 			sourceTree = "<group>";
 		};
+		828C8F411F793E9D00DC3068 /* 03-循环应用之计数与穷举 */ = {
+			isa = PBXGroup;
+			children = (
+				828C8F421F793E9D00DC3068 /* main.c */,
+			);
+			path = "03-循环应用之计数与穷举";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		821A71431F7A9B3500FFFAE7 /* 04-打印三角形状 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821A714A1F7A9B3500FFFAE7 /* Build configuration list for PBXNativeTarget "04-打印三角形状" */;
+			buildPhases = (
+				821A71401F7A9B3500FFFAE7 /* Sources */,
+				821A71411F7A9B3500FFFAE7 /* Frameworks */,
+				821A71421F7A9B3500FFFAE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-打印三角形状";
+			productName = "04-打印三角形状";
+			productReference = 821A71441F7A9B3500FFFAE7 /* 04-打印三角形状 */;
+			productType = "com.apple.product-type.tool";
+		};
 		824FF06F1F762423006CF0B3 /* 05-循环控制结构 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 824FF0771F762423006CF0B3 /* Build configuration list for PBXNativeTarget "05-循环控制结构" */;
@@ -129,6 +204,23 @@
 			productReference = 824FF07E1F7632D7006CF0B3 /* 03-题目3 */;
 			productType = "com.apple.product-type.tool";
 		};
+		828C8F3F1F793E9D00DC3068 /* 03-循环应用之计数与穷举 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828C8F461F793E9D00DC3068 /* Build configuration list for PBXNativeTarget "03-循环应用之计数与穷举" */;
+			buildPhases = (
+				828C8F3C1F793E9D00DC3068 /* Sources */,
+				828C8F3D1F793E9D00DC3068 /* Frameworks */,
+				828C8F3E1F793E9D00DC3068 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-循环应用之计数与穷举";
+			productName = "03-循环应用之计数与穷举";
+			productReference = 828C8F401F793E9D00DC3068 /* 03-循环应用之计数与穷举 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -138,10 +230,16 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cody;
 				TargetAttributes = {
+					821A71431F7A9B3500FFFAE7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					824FF06F1F762423006CF0B3 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					824FF07D1F7632D7006CF0B3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					828C8F3F1F793E9D00DC3068 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -160,11 +258,21 @@
 			targets = (
 				824FF06F1F762423006CF0B3 /* 05-循环控制结构 */,
 				824FF07D1F7632D7006CF0B3 /* 03-题目3 */,
+				828C8F3F1F793E9D00DC3068 /* 03-循环应用之计数与穷举 */,
+				821A71431F7A9B3500FFFAE7 /* 04-打印三角形状 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		821A71401F7A9B3500FFFAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821A71471F7A9B3500FFFAE7 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		824FF06C1F762423006CF0B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,9 +289,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		828C8F3C1F793E9D00DC3068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828C8F431F793E9D00DC3068 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		821A71481F7A9B3500FFFAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		821A71491F7A9B3500FFFAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		824FF0751F762423006CF0B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -291,9 +421,31 @@
 			};
 			name = Release;
 		};
+		828C8F441F793E9D00DC3068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		828C8F451F793E9D00DC3068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		821A714A1F7A9B3500FFFAE7 /* Build configuration list for PBXNativeTarget "04-打印三角形状" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821A71481F7A9B3500FFFAE7 /* Debug */,
+				821A71491F7A9B3500FFFAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		824FF06B1F762423006CF0B3 /* Build configuration list for PBXProject "05-循环控制结构" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -310,6 +462,7 @@
 				824FF0791F762423006CF0B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824FF0821F7632D7006CF0B3 /* Build configuration list for PBXNativeTarget "03-题目3" */ = {
 			isa = XCConfigurationList;
@@ -318,6 +471,16 @@
 				824FF0841F7632D7006CF0B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828C8F461F793E9D00DC3068 /* Build configuration list for PBXNativeTarget "03-循环应用之计数与穷举" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828C8F441F793E9D00DC3068 /* Debug */,
+				828C8F451F793E9D00DC3068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

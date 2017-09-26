@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>03-循环应用之计数与穷举.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>03-题目3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>04-打印三角形状.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>05-循环控制结构.xcscheme</key>
 		<dict>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>821A71431F7A9B3500FFFAE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>824FF06F1F762423006CF0B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>824FF07D1F7632D7006CF0B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>828C8F3F1F793E9D00DC3068</key>
 		<dict>
 			<key>primary</key>
 			<true/>
