@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820B52CA1F8FA60F00508F1D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 820B52C91F8FA60F00508F1D /* main.c */; };
 		8256E47F1F8D13330096C6E8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8256E47E1F8D13330096C6E8 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		820B52C51F8FA60F00508F1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8256E4791F8D13330096C6E8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +33,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		820B52C71F8FA60F00508F1D /* 04-函数的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-函数的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820B52C91F8FA60F00508F1D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8256E47B1F8D13330096C6E8 /* 07-函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8256E47E1F8D13330096C6E8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		820B52C41F8FA60F00508F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8256E4781F8D13330096C6E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		820B52C81F8FA60F00508F1D /* 04-函数的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				820B52C91F8FA60F00508F1D /* main.c */,
+			);
+			path = "04-函数的基本使用";
+			sourceTree = "<group>";
+		};
 		8256E4721F8D13330096C6E8 = {
 			isa = PBXGroup;
 			children = (
 				8256E47D1F8D13330096C6E8 /* 07-函数 */,
+				820B52C81F8FA60F00508F1D /* 04-函数的基本使用 */,
 				8256E47C1F8D13330096C6E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				8256E47B1F8D13330096C6E8 /* 07-函数 */,
+				820B52C71F8FA60F00508F1D /* 04-函数的基本使用 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +94,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		820B52C61F8FA60F00508F1D /* 04-函数的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820B52CD1F8FA60F00508F1D /* Build configuration list for PBXNativeTarget "04-函数的基本使用" */;
+			buildPhases = (
+				820B52C31F8FA60F00508F1D /* Sources */,
+				820B52C41F8FA60F00508F1D /* Frameworks */,
+				820B52C51F8FA60F00508F1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-函数的基本使用";
+			productName = "04-函数的基本使用";
+			productReference = 820B52C71F8FA60F00508F1D /* 04-函数的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8256E47A1F8D13330096C6E8 /* 07-函数 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8256E4821F8D13330096C6E8 /* Build configuration list for PBXNativeTarget "07-函数" */;
@@ -91,6 +137,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cody;
 				TargetAttributes = {
+					820B52C61F8FA60F00508F1D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					8256E47A1F8D13330096C6E8 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -109,11 +158,20 @@
 			projectRoot = "";
 			targets = (
 				8256E47A1F8D13330096C6E8 /* 07-函数 */,
+				820B52C61F8FA60F00508F1D /* 04-函数的基本使用 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		820B52C31F8FA60F00508F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820B52CA1F8FA60F00508F1D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8256E4771F8D13330096C6E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +183,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		820B52CB1F8FA60F00508F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		820B52CC1F8FA60F00508F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8256E4801F8D13330096C6E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -221,6 +293,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		820B52CD1F8FA60F00508F1D /* Build configuration list for PBXNativeTarget "04-函数的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820B52CB1F8FA60F00508F1D /* Debug */,
+				820B52CC1F8FA60F00508F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8256E4761F8D13330096C6E8 /* Build configuration list for PBXProject "07-函数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -237,6 +317,7 @@
 				8256E4841F8D13330096C6E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

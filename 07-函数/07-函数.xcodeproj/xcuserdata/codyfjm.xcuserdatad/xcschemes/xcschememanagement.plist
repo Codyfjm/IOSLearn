@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>04-函数的基本使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>07-函数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>820B52C61F8FA60F00508F1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8256E47A1F8D13330096C6E8</key>
 		<dict>
 			<key>primary</key>
