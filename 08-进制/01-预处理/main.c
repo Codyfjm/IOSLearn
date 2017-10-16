@@ -8,7 +8,6 @@
 
 #include <stdio.h>
 
-
 int main(int argc, const char * argv[]) {
    #include "/Users/codyfjm/Desktop/1.txt"
     return 0;
