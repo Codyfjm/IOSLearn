@@ -10,6 +10,7 @@
 		8274BAA51F9116FA00039BEA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8274BAA41F9116FA00039BEA /* main.c */; };
 		8274BAB01F91B3BF00039BEA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8274BAAF1F91B3BF00039BEA /* main.c */; };
 		82A99DCC1F979E3800538F0A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82A99DCB1F979E3800538F0A /* main.c */; };
+		82DF70C01F98D5CC00FCE70F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82DF70BF1F98D5CC00FCE70F /* main.c */; };
 		82E7FD571F951C1300AA296B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82E7FD561F951C1300AA296B /* main.c */; };
 		82E7FD5C1F951CB300AA296B /* mymath.c in Sources */ = {isa = PBXBuildFile; fileRef = 82E7FD5B1F951CB300AA296B /* mymath.c */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		82DF70BB1F98D5CC00FCE70F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		82E7FD521F951C1300AA296B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,6 +70,8 @@
 		8274BAAF1F91B3BF00039BEA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82A99DC91F979E3800538F0A /* 04-进制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-进制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A99DCB1F979E3800538F0A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82DF70BD1F98D5CC00FCE70F /* 06-变量存储的简单细节 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-变量存储的简单细节"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DF70BF1F98D5CC00FCE70F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82E7FD541F951C1300AA296B /* 03-多文件开发 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-多文件开发"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E7FD561F951C1300AA296B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82E7FD5B1F951CB300AA296B /* mymath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mymath.c; sourceTree = "<group>"; };
@@ -81,6 +93,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		82A99DC61F979E3800538F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DF70BA1F98D5CC00FCE70F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,6 +147,7 @@
 				8274BAAE1F91B3BF00039BEA /* 02-文件包含指令 */,
 				82E7FD551F951C1300AA296B /* 03-多文件开发 */,
 				82A99DCA1F979E3800538F0A /* 04-进制 */,
+				82DF70BE1F98D5CC00FCE70F /* 06-变量存储的简单细节 */,
 				82C49B281F910A4600C2B423 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,8 +159,17 @@
 				8274BAAD1F91B3BF00039BEA /* 02-文件包含指令 */,
 				82E7FD541F951C1300AA296B /* 03-多文件开发 */,
 				82A99DC91F979E3800538F0A /* 04-进制 */,
+				82DF70BD1F98D5CC00FCE70F /* 06-变量存储的简单细节 */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		82DF70BE1F98D5CC00FCE70F /* 06-变量存储的简单细节 */ = {
+			isa = PBXGroup;
+			children = (
+				82DF70BF1F98D5CC00FCE70F /* main.c */,
+			);
+			path = "06-变量存储的简单细节";
 			sourceTree = "<group>";
 		};
 		82E7FD551F951C1300AA296B /* 03-多文件开发 */ = {
@@ -206,6 +235,23 @@
 			productReference = 82A99DC91F979E3800538F0A /* 04-进制 */;
 			productType = "com.apple.product-type.tool";
 		};
+		82DF70BC1F98D5CC00FCE70F /* 06-变量存储的简单细节 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DF70C31F98D5CC00FCE70F /* Build configuration list for PBXNativeTarget "06-变量存储的简单细节" */;
+			buildPhases = (
+				82DF70B91F98D5CC00FCE70F /* Sources */,
+				82DF70BA1F98D5CC00FCE70F /* Frameworks */,
+				82DF70BB1F98D5CC00FCE70F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-变量存储的简单细节";
+			productName = "06-变量存储的简单细节";
+			productReference = 82DF70BD1F98D5CC00FCE70F /* 06-变量存储的简单细节 */;
+			productType = "com.apple.product-type.tool";
+		};
 		82E7FD531F951C1300AA296B /* 03-多文件开发 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82E7FD5A1F951C1300AA296B /* Build configuration list for PBXNativeTarget "03-多文件开发" */;
@@ -241,6 +287,9 @@
 					82A99DC81F979E3800538F0A = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					82DF70BC1F98D5CC00FCE70F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					82E7FD531F951C1300AA296B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -262,6 +311,7 @@
 				8274BAAC1F91B3BF00039BEA /* 02-文件包含指令 */,
 				82E7FD531F951C1300AA296B /* 03-多文件开发 */,
 				82A99DC81F979E3800538F0A /* 04-进制 */,
+				82DF70BC1F98D5CC00FCE70F /* 06-变量存储的简单细节 */,
 			);
 		};
 /* End PBXProject section */
@@ -288,6 +338,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				82A99DCC1F979E3800538F0A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DF70B91F98D5CC00FCE70F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DF70C01F98D5CC00FCE70F /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +482,20 @@
 			};
 			name = Release;
 		};
+		82DF70C11F98D5CC00FCE70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82DF70C21F98D5CC00FCE70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		82E7FD581F951C1300AA296B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,6 +538,7 @@
 				82A99DCE1F979E3800538F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82C49B221F910A4600C2B423 /* Build configuration list for PBXProject "08-进制" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +548,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		82DF70C31F98D5CC00FCE70F /* Build configuration list for PBXNativeTarget "06-变量存储的简单细节" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DF70C11F98D5CC00FCE70F /* Debug */,
+				82DF70C21F98D5CC00FCE70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		82E7FD5A1F951C1300AA296B /* Build configuration list for PBXNativeTarget "03-多文件开发" */ = {
 			isa = XCConfigurationList;

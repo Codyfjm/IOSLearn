@@ -18,6 +18,14 @@ int main(int argc, const char * argv[]) {
 //    }
     
     
+//    int len = sizeof(int);
+//    int len = sizeof(char);
+//    printf("len = %d\n",len);
     
+//    int num = 1000000;
+    double num = 13.222;
+    int len = sizeof(num);
     
+//    int len = sizeof 10.1;
+    printf("len = %d\n",len);
 }

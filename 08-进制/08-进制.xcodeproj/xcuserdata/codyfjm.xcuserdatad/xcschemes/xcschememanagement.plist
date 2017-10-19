@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>06-变量存储的简单细节.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>08-进制.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>82C49B341F910A7400C2B423</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82DF70BC1F98D5CC00FCE70F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
