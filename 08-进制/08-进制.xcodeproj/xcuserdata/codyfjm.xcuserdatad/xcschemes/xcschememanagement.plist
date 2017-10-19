@@ -34,10 +34,20 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>08-位运算.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>08-进制.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>09-深入变量细节.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -68,6 +78,16 @@
 			<true/>
 		</dict>
 		<key>82DF70BC1F98D5CC00FCE70F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82DF70C71F98E3F800FCE70F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82DF70D21F98F5FD00FCE70F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
