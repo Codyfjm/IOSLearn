@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8220941C1F9F94CA00004D6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8220941B1F9F94CA00004D6B /* main.c */; };
 		822094291F9F973400004D6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 822094281F9F973400004D6B /* main.c */; };
+		8233888C1FB9D418007B7090 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8233888B1FB9D418007B7090 /* main.c */; };
+		823388971FB9D9D9007B7090 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 823388961FB9D9D9007B7090 /* main.c */; };
 		82CCCC2F1FA0DAA600B7925F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CCCC2E1FA0DAA600B7925F /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		822094241F9F973400004D6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		823388871FB9D418007B7090 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		823388921FB9D9D9007B7090 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -47,6 +67,10 @@
 		8220941B1F9F94CA00004D6B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		822094261F9F973400004D6B /* 04-数组的概述 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-数组的概述"; sourceTree = BUILT_PRODUCTS_DIR; };
 		822094281F9F973400004D6B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		823388891FB9D418007B7090 /* 04-数组在内存中的存储 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-数组在内存中的存储"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8233888B1FB9D418007B7090 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		823388941FB9D9D9007B7090 /* 05-数组的应用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-数组的应用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823388961FB9D9D9007B7090 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82CCCC2C1FA0DAA600B7925F /* 03-数组的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-数组的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CCCC2E1FA0DAA600B7925F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +84,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		822094231F9F973400004D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823388861FB9D418007B7090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823388911FB9D9D9007B7090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,6 +120,8 @@
 				8220941A1F9F94CA00004D6B /* 09-数组 */,
 				822094271F9F973400004D6B /* 04-数组的概述 */,
 				82CCCC2D1FA0DAA600B7925F /* 03-数组的基本使用 */,
+				8233888A1FB9D418007B7090 /* 04-数组在内存中的存储 */,
+				823388951FB9D9D9007B7090 /* 05-数组的应用 */,
 				822094191F9F94CA00004D6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +132,8 @@
 				822094181F9F94CA00004D6B /* 09-数组 */,
 				822094261F9F973400004D6B /* 04-数组的概述 */,
 				82CCCC2C1FA0DAA600B7925F /* 03-数组的基本使用 */,
+				823388891FB9D418007B7090 /* 04-数组在内存中的存储 */,
+				823388941FB9D9D9007B7090 /* 05-数组的应用 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +152,22 @@
 				822094281F9F973400004D6B /* main.c */,
 			);
 			path = "04-数组的概述";
+			sourceTree = "<group>";
+		};
+		8233888A1FB9D418007B7090 /* 04-数组在内存中的存储 */ = {
+			isa = PBXGroup;
+			children = (
+				8233888B1FB9D418007B7090 /* main.c */,
+			);
+			path = "04-数组在内存中的存储";
+			sourceTree = "<group>";
+		};
+		823388951FB9D9D9007B7090 /* 05-数组的应用 */ = {
+			isa = PBXGroup;
+			children = (
+				823388961FB9D9D9007B7090 /* main.c */,
+			);
+			path = "05-数组的应用";
 			sourceTree = "<group>";
 		};
 		82CCCC2D1FA0DAA600B7925F /* 03-数组的基本使用 */ = {
@@ -157,6 +215,40 @@
 			productReference = 822094261F9F973400004D6B /* 04-数组的概述 */;
 			productType = "com.apple.product-type.tool";
 		};
+		823388881FB9D418007B7090 /* 04-数组在内存中的存储 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8233888F1FB9D418007B7090 /* Build configuration list for PBXNativeTarget "04-数组在内存中的存储" */;
+			buildPhases = (
+				823388851FB9D418007B7090 /* Sources */,
+				823388861FB9D418007B7090 /* Frameworks */,
+				823388871FB9D418007B7090 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-数组在内存中的存储";
+			productName = "04-数组在内存中的存储";
+			productReference = 823388891FB9D418007B7090 /* 04-数组在内存中的存储 */;
+			productType = "com.apple.product-type.tool";
+		};
+		823388931FB9D9D9007B7090 /* 05-数组的应用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823388981FB9D9DA007B7090 /* Build configuration list for PBXNativeTarget "05-数组的应用" */;
+			buildPhases = (
+				823388901FB9D9D9007B7090 /* Sources */,
+				823388911FB9D9D9007B7090 /* Frameworks */,
+				823388921FB9D9D9007B7090 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-数组的应用";
+			productName = "05-数组的应用";
+			productReference = 823388941FB9D9D9007B7090 /* 05-数组的应用 */;
+			productType = "com.apple.product-type.tool";
+		};
 		82CCCC2B1FA0DAA600B7925F /* 03-数组的基本使用 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82CCCC321FA0DAA600B7925F /* Build configuration list for PBXNativeTarget "03-数组的基本使用" */;
@@ -189,6 +281,12 @@
 					822094251F9F973400004D6B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					823388881FB9D418007B7090 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					823388931FB9D9D9007B7090 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					82CCCC2B1FA0DAA600B7925F = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -209,6 +307,8 @@
 				822094171F9F94CA00004D6B /* 09-数组 */,
 				822094251F9F973400004D6B /* 04-数组的概述 */,
 				82CCCC2B1FA0DAA600B7925F /* 03-数组的基本使用 */,
+				823388881FB9D418007B7090 /* 04-数组在内存中的存储 */,
+				823388931FB9D9D9007B7090 /* 05-数组的应用 */,
 			);
 		};
 /* End PBXProject section */
@@ -227,6 +327,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				822094291F9F973400004D6B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823388851FB9D418007B7090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8233888C1FB9D418007B7090 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823388901FB9D9D9007B7090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823388971FB9D9D9007B7090 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +464,34 @@
 			};
 			name = Release;
 		};
+		8233888D1FB9D418007B7090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8233888E1FB9D418007B7090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		823388991FB9D9DA007B7090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8233889A1FB9D9DA007B7090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		82CCCC301FA0DAA600B7925F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,6 +536,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8233888F1FB9D418007B7090 /* Build configuration list for PBXNativeTarget "04-数组在内存中的存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8233888D1FB9D418007B7090 /* Debug */,
+				8233888E1FB9D418007B7090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		823388981FB9D9DA007B7090 /* Build configuration list for PBXNativeTarget "05-数组的应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823388991FB9D9DA007B7090 /* Debug */,
+				8233889A1FB9D9DA007B7090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		82CCCC321FA0DAA600B7925F /* Build configuration list for PBXNativeTarget "03-数组的基本使用" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -399,6 +559,7 @@
 				82CCCC311FA0DAA600B7925F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

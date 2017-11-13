@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>04-数组在内存中的存储.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>04-数组的概述.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>05-数组的应用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>09-数组.xcscheme</key>
 		<dict>
@@ -28,6 +38,16 @@
 			<true/>
 		</dict>
 		<key>822094251F9F973400004D6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>823388881FB9D418007B7090</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>823388931FB9D9D9007B7090</key>
 		<dict>
 			<key>primary</key>
 			<true/>
