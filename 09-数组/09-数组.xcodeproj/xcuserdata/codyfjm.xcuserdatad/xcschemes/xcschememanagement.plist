@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>07-数组的其他应用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>09-数组.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -37,6 +42,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>821D11B91FBC91930093F205</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>822094171F9F94CA00004D6B</key>
 		<dict>
 			<key>primary</key>
