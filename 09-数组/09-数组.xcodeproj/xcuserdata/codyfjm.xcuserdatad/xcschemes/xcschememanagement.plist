@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>08-数组的排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>09-数组.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>821D11B91FBC91930093F205</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>821D11C41FBC9E250093F205</key>
 		<dict>
 			<key>primary</key>
 			<true/>

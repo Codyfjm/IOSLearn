@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		821D11BD1FBC91930093F205 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 821D11BC1FBC91930093F205 /* main.c */; };
+		821D11C81FBC9E250093F205 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 821D11C71FBC9E250093F205 /* main.c */; };
 		8220941C1F9F94CA00004D6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8220941B1F9F94CA00004D6B /* main.c */; };
 		822094291F9F973400004D6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 822094281F9F973400004D6B /* main.c */; };
 		8233888C1FB9D418007B7090 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8233888B1FB9D418007B7090 /* main.c */; };
@@ -18,6 +19,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		821D11B81FBC91930093F205 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		821D11C31FBC9E250093F205 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -85,6 +95,8 @@
 /* Begin PBXFileReference section */
 		821D11BA1FBC91930093F205 /* 07-数组的其他应用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-数组的其他应用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		821D11BC1FBC91930093F205 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		821D11C51FBC9E250093F205 /* 08-数组的排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-数组的排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		821D11C71FBC9E250093F205 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		822094181F9F94CA00004D6B /* 09-数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-数组"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8220941B1F9F94CA00004D6B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		822094261F9F973400004D6B /* 04-数组的概述 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-数组的概述"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +113,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		821D11B71FBC91930093F205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821D11C21FBC9E250093F205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -160,6 +179,14 @@
 			path = "07-数组的其他应用";
 			sourceTree = "<group>";
 		};
+		821D11C61FBC9E250093F205 /* 08-数组的排序 */ = {
+			isa = PBXGroup;
+			children = (
+				821D11C71FBC9E250093F205 /* main.c */,
+			);
+			path = "08-数组的排序";
+			sourceTree = "<group>";
+		};
 		8220940F1F9F94CA00004D6B = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +197,7 @@
 				823388951FB9D9D9007B7090 /* 05-数组的应用 */,
 				828C46C61FBB4AA500FC450F /* 06-数组与函数 */,
 				821D11BB1FBC91930093F205 /* 07-数组的其他应用 */,
+				821D11C61FBC9E250093F205 /* 08-数组的排序 */,
 				822094191F9F94CA00004D6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -184,6 +212,7 @@
 				823388941FB9D9D9007B7090 /* 05-数组的应用 */,
 				828C46C51FBB4AA500FC450F /* 06-数组与函数 */,
 				821D11BA1FBC91930093F205 /* 07-数组的其他应用 */,
+				821D11C51FBC9E250093F205 /* 08-数组的排序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,6 +283,23 @@
 			name = "07-数组的其他应用";
 			productName = "07-数组的其他应用";
 			productReference = 821D11BA1FBC91930093F205 /* 07-数组的其他应用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		821D11C41FBC9E250093F205 /* 08-数组的排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821D11C91FBC9E250093F205 /* Build configuration list for PBXNativeTarget "08-数组的排序" */;
+			buildPhases = (
+				821D11C11FBC9E250093F205 /* Sources */,
+				821D11C21FBC9E250093F205 /* Frameworks */,
+				821D11C31FBC9E250093F205 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-数组的排序";
+			productName = "08-数组的排序";
+			productReference = 821D11C51FBC9E250093F205 /* 08-数组的排序 */;
 			productType = "com.apple.product-type.tool";
 		};
 		822094171F9F94CA00004D6B /* 09-数组 */ = {
@@ -370,6 +416,9 @@
 					821D11B91FBC91930093F205 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					821D11C41FBC9E250093F205 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					822094171F9F94CA00004D6B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -409,6 +458,7 @@
 				823388931FB9D9D9007B7090 /* 05-数组的应用 */,
 				828C46C41FBB4AA500FC450F /* 06-数组与函数 */,
 				821D11B91FBC91930093F205 /* 07-数组的其他应用 */,
+				821D11C41FBC9E250093F205 /* 08-数组的排序 */,
 			);
 		};
 /* End PBXProject section */
@@ -419,6 +469,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				821D11BD1FBC91930093F205 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821D11C11FBC9E250093F205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821D11C81FBC9E250093F205 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +539,20 @@
 			name = Debug;
 		};
 		821D11BF1FBC91930093F205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		821D11CA1FBC9E250093F205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		821D11CB1FBC9E250093F205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -658,6 +730,14 @@
 			buildConfigurations = (
 				821D11BE1FBC91930093F205 /* Debug */,
 				821D11BF1FBC91930093F205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		821D11C91FBC9E250093F205 /* Build configuration list for PBXNativeTarget "08-数组的排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821D11CA1FBC9E250093F205 /* Debug */,
+				821D11CB1FBC9E250093F205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
