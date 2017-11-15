@@ -39,10 +39,20 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>09-冒泡排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>09-数组.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>10-二分查找法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -53,6 +63,16 @@
 			<true/>
 		</dict>
 		<key>821D11C41FBC9E250093F205</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>821D11CF1FBCB2010093F205</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>821D11DA1FBCB73F0093F205</key>
 		<dict>
 			<key>primary</key>
 			<true/>
