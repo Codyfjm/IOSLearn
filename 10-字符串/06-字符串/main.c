@@ -43,8 +43,23 @@ int main(int argc, const char * argv[]) {
 //    printf("%s\n",name);
     
     
-    char str1[] = "jack";
-    char str2[4] = "rose";
+//    char str1[] = "jack";
+//    char str2[4] = "rose";
+//    
+//    printf("%s\n",str2);//rosejack
     
-    printf("%s\n",str2);//rosejack
+    
+//    char str[10];
+//    printf("请问你的名字叫什么：");
+//    scanf("%s",str);
+//    printf("欢迎你：%s\n",str);
+    
+    char name[100] = "jack";
+    int len = 0;
+    while (name[len]!='\0') {
+        len++;
+    }
+    
+    printf("len = %d\n",len);
+    
 }

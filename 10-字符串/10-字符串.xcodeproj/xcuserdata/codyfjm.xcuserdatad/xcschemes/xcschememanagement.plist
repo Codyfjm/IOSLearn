@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>08-字符串的常用函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>10-字符串.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +53,11 @@
 			<true/>
 		</dict>
 		<key>828A61F21FD0576100759017</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82DF89F31FD1B92C00D0E70F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
