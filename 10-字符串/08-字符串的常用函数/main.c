@@ -44,12 +44,17 @@ int main(int argc, const char * argv[]) {
 //    printf("name1 = %s\n",name1);
     
     
-    char name1[10] = "jack";
-    char name2[10] = "cody";
+//    char name1[10] = "jack";
+//    char name2[10] = "cody";
+//    
+//    strcat(name1, name2);
+//    puts(name1);
     
-    strcat(name1, name2);
-    puts(name1);
+    char name1[] = "jack";
+    char name2[3] = "rose";
+    name2[3] = 'e';
     
+    int arr[3] = {21,2,124,33,54,67,68,6,76,7,6};
     
     
     

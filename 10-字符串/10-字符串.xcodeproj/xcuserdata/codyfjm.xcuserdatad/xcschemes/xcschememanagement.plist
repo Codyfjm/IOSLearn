@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>09-走出迷宫.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>10-字符串.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -37,6 +42,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8227C4A71FE0270A0087E75C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8263C1A61FBE00370054E685</key>
 		<dict>
 			<key>primary</key>
