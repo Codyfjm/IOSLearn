@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>06-指针与数组.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>11-指针.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>824359AF1FE51EEC004383A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>824359BA1FE5406A004383A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
