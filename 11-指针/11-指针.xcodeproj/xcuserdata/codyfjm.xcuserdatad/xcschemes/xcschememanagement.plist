@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>05-指针与整数的加减法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>11-指针.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>824359A41FE50A04004383A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>824359AF1FE51EEC004383A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
