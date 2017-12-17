@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82055A891FE6A811005850E6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82055A881FE6A811005850E6 /* main.c */; };
 		824359A81FE50A04004383A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824359A71FE50A04004383A2 /* main.c */; };
 		824359B31FE51EEC004383A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824359B21FE51EEC004383A2 /* main.c */; };
 		824359BE1FE5406A004383A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824359BD1FE5406A004383A2 /* main.c */; };
@@ -16,6 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		82055A841FE6A811005850E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		824359A31FE50A04004383A2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +83,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		82055A861FE6A811005850E6 /* 07-存储指针的数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-存储指针的数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82055A881FE6A811005850E6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		824359A51FE50A04004383A2 /* 04-多级指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-多级指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824359A71FE50A04004383A2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		824359B01FE51EEC004383A2 /* 05-指针与整数的加减法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-指针与整数的加减法"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +100,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82055A831FE6A811005850E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		824359A21FE50A04004383A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +152,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82055A871FE6A811005850E6 /* 07-存储指针的数组 */ = {
+			isa = PBXGroup;
+			children = (
+				82055A881FE6A811005850E6 /* main.c */,
+			);
+			path = "07-存储指针的数组";
+			sourceTree = "<group>";
+		};
 		824359A61FE50A04004383A2 /* 04-多级指针 */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +193,7 @@
 				824359A61FE50A04004383A2 /* 04-多级指针 */,
 				824359B11FE51EEC004383A2 /* 05-指针与整数的加减法 */,
 				824359BC1FE5406A004383A2 /* 06-指针与数组 */,
+				82055A871FE6A811005850E6 /* 07-存储指针的数组 */,
 				82DE33191FE18CEF00BAB97B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,6 +207,7 @@
 				824359A51FE50A04004383A2 /* 04-多级指针 */,
 				824359B01FE51EEC004383A2 /* 05-指针与整数的加减法 */,
 				824359BB1FE5406A004383A2 /* 06-指针与数组 */,
+				82055A861FE6A811005850E6 /* 07-存储指针的数组 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +239,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		82055A851FE6A811005850E6 /* 07-存储指针的数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82055A8C1FE6A811005850E6 /* Build configuration list for PBXNativeTarget "07-存储指针的数组" */;
+			buildPhases = (
+				82055A821FE6A811005850E6 /* Sources */,
+				82055A831FE6A811005850E6 /* Frameworks */,
+				82055A841FE6A811005850E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-存储指针的数组";
+			productName = "07-存储指针的数组";
+			productReference = 82055A861FE6A811005850E6 /* 07-存储指针的数组 */;
+			productType = "com.apple.product-type.tool";
+		};
 		824359A41FE50A04004383A2 /* 04-多级指针 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 824359AB1FE50A04004383A2 /* Build configuration list for PBXNativeTarget "04-多级指针" */;
@@ -321,6 +367,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cody;
 				TargetAttributes = {
+					82055A851FE6A811005850E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					824359A41FE50A04004383A2 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -359,11 +408,20 @@
 				824359A41FE50A04004383A2 /* 04-多级指针 */,
 				824359AF1FE51EEC004383A2 /* 05-指针与整数的加减法 */,
 				824359BA1FE5406A004383A2 /* 06-指针与数组 */,
+				82055A851FE6A811005850E6 /* 07-存储指针的数组 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		82055A821FE6A811005850E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82055A891FE6A811005850E6 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		824359A11FE50A04004383A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,6 +473,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		82055A8A1FE6A811005850E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82055A8B1FE6A811005850E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		824359A91FE50A04004383A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -581,6 +653,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		82055A8C1FE6A811005850E6 /* Build configuration list for PBXNativeTarget "07-存储指针的数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82055A8A1FE6A811005850E6 /* Debug */,
+				82055A8B1FE6A811005850E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		824359AB1FE50A04004383A2 /* Build configuration list for PBXNativeTarget "04-多级指针" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -606,6 +686,7 @@
 				824359C01FE5406A004383A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82DE33131FE18CEF00BAB97B /* Build configuration list for PBXProject "11-指针" */ = {
 			isa = XCConfigurationList;

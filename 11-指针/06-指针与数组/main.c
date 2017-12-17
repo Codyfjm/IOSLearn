@@ -21,7 +21,8 @@ int main(int argc, const char * argv[]) {
 //    int  *p1 = &num2;
 //    
 //    p1[0] = 1000;//*(p1+0);*p1
-//    printf("num2 = %d\n",num2);//1000
+//    printf("num2 = %d\n",num2);
+    //1000
 //    p1[1] = 2000;//*(p1+1);num1
 //    printf("num1 = %d\n",num1);//2000
     
