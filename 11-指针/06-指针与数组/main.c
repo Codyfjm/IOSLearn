@@ -8,14 +8,36 @@
 
 #include <stdio.h>
 
+void test(int *arr,int len){
+
+}
+
 int main(int argc, const char * argv[]) {
     
-    int arr[7] = {10,20,30,40,50,60,70};
+    
+//    int num1 = 10;
+//    int num2 = 20;
+//    
+//    int  *p1 = &num2;
+//    
+//    p1[0] = 1000;//*(p1+0);*p1
+//    printf("num2 = %d\n",num2);//1000
+//    p1[1] = 2000;//*(p1+1);num1
+//    printf("num1 = %d\n",num1);//2000
     
     
-    int* p1 = arr;
+    
+    /*
+        1.在声明参数的时候不是创建数组，而是创建1个存储数组地址的指针变量
+     */
+    
+//    test();
     
     
+//    int arr[7] = {10,20,30,40,50,60,70};
+//    
+//    
+//    int* p1 = arr;
     
     
     
