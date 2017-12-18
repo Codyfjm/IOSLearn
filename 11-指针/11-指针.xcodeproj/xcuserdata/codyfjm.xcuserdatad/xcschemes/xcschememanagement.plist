@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>08-指针与指针之间的减法运算.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>11-指针.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>824359BA1FE5406A004383A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82BBBAE91FE816EF007D0B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>

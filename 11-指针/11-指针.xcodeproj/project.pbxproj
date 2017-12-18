@@ -11,6 +11,7 @@
 		824359A81FE50A04004383A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824359A71FE50A04004383A2 /* main.c */; };
 		824359B31FE51EEC004383A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824359B21FE51EEC004383A2 /* main.c */; };
 		824359BE1FE5406A004383A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824359BD1FE5406A004383A2 /* main.c */; };
+		82BBBAED1FE816EF007D0B64 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BBBAEC1FE816EF007D0B64 /* main.c */; };
 		82DE331C1FE18CEF00BAB97B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82DE331B1FE18CEF00BAB97B /* main.c */; };
 		82DE33291FE1915F00BAB97B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82DE33281FE1915F00BAB97B /* main.c */; };
 		82FFCC231FE2CF730043C120 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82FFCC221FE2CF730043C120 /* main.c */; };
@@ -45,6 +46,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		824359B91FE5406A004383A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		82BBBAE81FE816EF007D0B64 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -91,6 +101,8 @@
 		824359B21FE51EEC004383A2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		824359BB1FE5406A004383A2 /* 06-指针与数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-指针与数组"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824359BD1FE5406A004383A2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82BBBAEA1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-指针与指针之间的减法运算"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BBBAEC1FE816EF007D0B64 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82DE33181FE18CEF00BAB97B /* 11-指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DE331B1FE18CEF00BAB97B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82DE33261FE1915F00BAB97B /* 01-指针的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-指针的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +134,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		824359B81FE5406A004383A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BBBAE71FE816EF007D0B64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,6 +203,14 @@
 			path = "06-指针与数组";
 			sourceTree = "<group>";
 		};
+		82BBBAEB1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */ = {
+			isa = PBXGroup;
+			children = (
+				82BBBAEC1FE816EF007D0B64 /* main.c */,
+			);
+			path = "08-指针与指针之间的减法运算";
+			sourceTree = "<group>";
+		};
 		82DE330F1FE18CEF00BAB97B = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +221,7 @@
 				824359B11FE51EEC004383A2 /* 05-指针与整数的加减法 */,
 				824359BC1FE5406A004383A2 /* 06-指针与数组 */,
 				82055A871FE6A811005850E6 /* 07-存储指针的数组 */,
+				82BBBAEB1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */,
 				82DE33191FE18CEF00BAB97B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -208,6 +236,7 @@
 				824359B01FE51EEC004383A2 /* 05-指针与整数的加减法 */,
 				824359BB1FE5406A004383A2 /* 06-指针与数组 */,
 				82055A861FE6A811005850E6 /* 07-存储指针的数组 */,
+				82BBBAEA1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,6 +336,23 @@
 			productReference = 824359BB1FE5406A004383A2 /* 06-指针与数组 */;
 			productType = "com.apple.product-type.tool";
 		};
+		82BBBAE91FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BBBAF01FE816EF007D0B64 /* Build configuration list for PBXNativeTarget "08-指针与指针之间的减法运算" */;
+			buildPhases = (
+				82BBBAE61FE816EF007D0B64 /* Sources */,
+				82BBBAE71FE816EF007D0B64 /* Frameworks */,
+				82BBBAE81FE816EF007D0B64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-指针与指针之间的减法运算";
+			productName = "08-指针与指针之间的减法运算";
+			productReference = 82BBBAEA1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */;
+			productType = "com.apple.product-type.tool";
+		};
 		82DE33171FE18CEF00BAB97B /* 11-指针 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82DE331F1FE18CEF00BAB97B /* Build configuration list for PBXNativeTarget "11-指针" */;
@@ -379,6 +425,9 @@
 					824359BA1FE5406A004383A2 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					82BBBAE91FE816EF007D0B64 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					82DE33171FE18CEF00BAB97B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -409,6 +458,7 @@
 				824359AF1FE51EEC004383A2 /* 05-指针与整数的加减法 */,
 				824359BA1FE5406A004383A2 /* 06-指针与数组 */,
 				82055A851FE6A811005850E6 /* 07-存储指针的数组 */,
+				82BBBAE91FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */,
 			);
 		};
 /* End PBXProject section */
@@ -443,6 +493,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				824359BE1FE5406A004383A2 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BBBAE61FE816EF007D0B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BBBAED1FE816EF007D0B64 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +581,20 @@
 			name = Debug;
 		};
 		824359C01FE5406A004383A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82BBBAEE1FE816EF007D0B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82BBBAEF1FE816EF007D0B64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -660,6 +732,7 @@
 				82055A8B1FE6A811005850E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824359AB1FE50A04004383A2 /* Build configuration list for PBXNativeTarget "04-多级指针" */ = {
 			isa = XCConfigurationList;
@@ -687,6 +760,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		82BBBAF01FE816EF007D0B64 /* Build configuration list for PBXNativeTarget "08-指针与指针之间的减法运算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BBBAEE1FE816EF007D0B64 /* Debug */,
+				82BBBAEF1FE816EF007D0B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		82DE33131FE18CEF00BAB97B /* Build configuration list for PBXProject "11-指针" */ = {
 			isa = XCConfigurationList;
