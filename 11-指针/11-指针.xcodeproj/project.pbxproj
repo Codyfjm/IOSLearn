@@ -12,6 +12,7 @@
 		824359B31FE51EEC004383A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824359B21FE51EEC004383A2 /* main.c */; };
 		824359BE1FE5406A004383A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 824359BD1FE5406A004383A2 /* main.c */; };
 		82BBBAED1FE816EF007D0B64 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BBBAEC1FE816EF007D0B64 /* main.c */; };
+		82BBBAF81FE81E61007D0B64 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BBBAF71FE81E61007D0B64 /* main.c */; };
 		82DE331C1FE18CEF00BAB97B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82DE331B1FE18CEF00BAB97B /* main.c */; };
 		82DE33291FE1915F00BAB97B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82DE33281FE1915F00BAB97B /* main.c */; };
 		82FFCC231FE2CF730043C120 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82FFCC221FE2CF730043C120 /* main.c */; };
@@ -63,6 +64,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		82BBBAF31FE81E61007D0B64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		82DE33161FE18CEF00BAB97B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +113,8 @@
 		824359BD1FE5406A004383A2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82BBBAEA1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-指针与指针之间的减法运算"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BBBAEC1FE816EF007D0B64 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82BBBAF51FE81E61007D0B64 /* 09-指针与指针之间的比较元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-指针与指针之间的比较元素"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BBBAF71FE81E61007D0B64 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82DE33181FE18CEF00BAB97B /* 11-指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DE331B1FE18CEF00BAB97B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82DE33261FE1915F00BAB97B /* 01-指针的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-指针的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +153,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		82BBBAE71FE816EF007D0B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BBBAF21FE81E61007D0B64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,6 +230,14 @@
 			path = "08-指针与指针之间的减法运算";
 			sourceTree = "<group>";
 		};
+		82BBBAF61FE81E61007D0B64 /* 09-指针与指针之间的比较元素 */ = {
+			isa = PBXGroup;
+			children = (
+				82BBBAF71FE81E61007D0B64 /* main.c */,
+			);
+			path = "09-指针与指针之间的比较元素";
+			sourceTree = "<group>";
+		};
 		82DE330F1FE18CEF00BAB97B = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +249,7 @@
 				824359BC1FE5406A004383A2 /* 06-指针与数组 */,
 				82055A871FE6A811005850E6 /* 07-存储指针的数组 */,
 				82BBBAEB1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */,
+				82BBBAF61FE81E61007D0B64 /* 09-指针与指针之间的比较元素 */,
 				82DE33191FE18CEF00BAB97B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -237,6 +265,7 @@
 				824359BB1FE5406A004383A2 /* 06-指针与数组 */,
 				82055A861FE6A811005850E6 /* 07-存储指针的数组 */,
 				82BBBAEA1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */,
+				82BBBAF51FE81E61007D0B64 /* 09-指针与指针之间的比较元素 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -353,6 +382,23 @@
 			productReference = 82BBBAEA1FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */;
 			productType = "com.apple.product-type.tool";
 		};
+		82BBBAF41FE81E61007D0B64 /* 09-指针与指针之间的比较元素 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BBBAF91FE81E61007D0B64 /* Build configuration list for PBXNativeTarget "09-指针与指针之间的比较元素" */;
+			buildPhases = (
+				82BBBAF11FE81E61007D0B64 /* Sources */,
+				82BBBAF21FE81E61007D0B64 /* Frameworks */,
+				82BBBAF31FE81E61007D0B64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09-指针与指针之间的比较元素";
+			productName = "09-指针与指针之间的比较元素";
+			productReference = 82BBBAF51FE81E61007D0B64 /* 09-指针与指针之间的比较元素 */;
+			productType = "com.apple.product-type.tool";
+		};
 		82DE33171FE18CEF00BAB97B /* 11-指针 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82DE331F1FE18CEF00BAB97B /* Build configuration list for PBXNativeTarget "11-指针" */;
@@ -428,6 +474,9 @@
 					82BBBAE91FE816EF007D0B64 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					82BBBAF41FE81E61007D0B64 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					82DE33171FE18CEF00BAB97B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -459,6 +508,7 @@
 				824359BA1FE5406A004383A2 /* 06-指针与数组 */,
 				82055A851FE6A811005850E6 /* 07-存储指针的数组 */,
 				82BBBAE91FE816EF007D0B64 /* 08-指针与指针之间的减法运算 */,
+				82BBBAF41FE81E61007D0B64 /* 09-指针与指针之间的比较元素 */,
 			);
 		};
 /* End PBXProject section */
@@ -501,6 +551,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				82BBBAED1FE816EF007D0B64 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BBBAF11FE81E61007D0B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BBBAF81FE81E61007D0B64 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +653,20 @@
 			name = Debug;
 		};
 		82BBBAEF1FE816EF007D0B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82BBBAFA1FE81E61007D0B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82BBBAFB1FE81E61007D0B64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -766,6 +838,14 @@
 			buildConfigurations = (
 				82BBBAEE1FE816EF007D0B64 /* Debug */,
 				82BBBAEF1FE816EF007D0B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82BBBAF91FE81E61007D0B64 /* Build configuration list for PBXNativeTarget "09-指针与指针之间的比较元素" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BBBAFA1FE81E61007D0B64 /* Debug */,
+				82BBBAFB1FE81E61007D0B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

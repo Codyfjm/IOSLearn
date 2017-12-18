@@ -20,5 +20,5 @@ int main(int argc, const char * argv[]) {
     
     long res = p2 - p1;
     
-    printf("res = %ld\n",res);i
+    printf("res = %ld\n",res);
 }
