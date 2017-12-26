@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>02-面试题.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>12-指针.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>82724D4D1FE965920091CB6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82972DC81FF2B20B001CEB45</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		82724D511FE965920091CB6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82724D501FE965920091CB6B /* main.c */; };
+		82972DCC1FF2B20B001CEB45 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82972DCB1FF2B20B001CEB45 /* main.c */; };
 		82BBBB091FE82BF9007D0B64 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BBBB081FE82BF9007D0B64 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		82724D4C1FE965920091CB6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		82972DC71FF2B20B001CEB45 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -35,12 +45,21 @@
 /* Begin PBXFileReference section */
 		82724D4E1FE965920091CB6B /* 01-指针和字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-指针和字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82724D501FE965920091CB6B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82972DC91FF2B20B001CEB45 /* 02-面试题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-面试题"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82972DCB1FF2B20B001CEB45 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82BBBB051FE82BF9007D0B64 /* 12-指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BBBB081FE82BF9007D0B64 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		82724D4B1FE965920091CB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82972DC61FF2B20B001CEB45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,11 +84,20 @@
 			path = "01-指针和字符串";
 			sourceTree = "<group>";
 		};
+		82972DCA1FF2B20B001CEB45 /* 02-面试题 */ = {
+			isa = PBXGroup;
+			children = (
+				82972DCB1FF2B20B001CEB45 /* main.c */,
+			);
+			path = "02-面试题";
+			sourceTree = "<group>";
+		};
 		82BBBAFC1FE82BF9007D0B64 = {
 			isa = PBXGroup;
 			children = (
 				82BBBB071FE82BF9007D0B64 /* 12-指针 */,
 				82724D4F1FE965920091CB6B /* 01-指针和字符串 */,
+				82972DCA1FF2B20B001CEB45 /* 02-面试题 */,
 				82BBBB061FE82BF9007D0B64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +107,7 @@
 			children = (
 				82BBBB051FE82BF9007D0B64 /* 12-指针 */,
 				82724D4E1FE965920091CB6B /* 01-指针和字符串 */,
+				82972DC91FF2B20B001CEB45 /* 02-面试题 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +140,23 @@
 			productReference = 82724D4E1FE965920091CB6B /* 01-指针和字符串 */;
 			productType = "com.apple.product-type.tool";
 		};
+		82972DC81FF2B20B001CEB45 /* 02-面试题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82972DCF1FF2B20B001CEB45 /* Build configuration list for PBXNativeTarget "02-面试题" */;
+			buildPhases = (
+				82972DC51FF2B20B001CEB45 /* Sources */,
+				82972DC61FF2B20B001CEB45 /* Frameworks */,
+				82972DC71FF2B20B001CEB45 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-面试题";
+			productName = "02-面试题";
+			productReference = 82972DC91FF2B20B001CEB45 /* 02-面试题 */;
+			productType = "com.apple.product-type.tool";
+		};
 		82BBBB041FE82BF9007D0B64 /* 12-指针 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82BBBB0C1FE82BF9007D0B64 /* Build configuration list for PBXNativeTarget "12-指针" */;
@@ -140,6 +186,9 @@
 					82724D4D1FE965920091CB6B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					82972DC81FF2B20B001CEB45 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					82BBBB041FE82BF9007D0B64 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -159,6 +208,7 @@
 			targets = (
 				82BBBB041FE82BF9007D0B64 /* 12-指针 */,
 				82724D4D1FE965920091CB6B /* 01-指针和字符串 */,
+				82972DC81FF2B20B001CEB45 /* 02-面试题 */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +219,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				82724D511FE965920091CB6B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82972DC51FF2B20B001CEB45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82972DCC1FF2B20B001CEB45 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +249,20 @@
 			name = Debug;
 		};
 		82724D531FE965920091CB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82972DCD1FF2B20B001CEB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82972DCE1FF2B20B001CEB45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +370,15 @@
 			buildConfigurations = (
 				82724D521FE965920091CB6B /* Debug */,
 				82724D531FE965920091CB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82972DCF1FF2B20B001CEB45 /* Build configuration list for PBXNativeTarget "02-面试题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82972DCD1FF2B20B001CEB45 /* Debug */,
+				82972DCE1FF2B20B001CEB45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
