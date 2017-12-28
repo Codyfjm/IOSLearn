@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>05-字符串函数补充.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>12-指针.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>8214D1F61FF53CE900025AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8214D2011FF545A000025AC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
