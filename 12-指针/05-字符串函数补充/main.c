@@ -28,17 +28,27 @@
 int main(int argc, const char * argv[]) {
     
     
+    FILE* pFile = fopen("/Users/codyfjm/Desktop/abc.txt", "r");
     
-    char input[10];
+    char content[50];
     
-    printf("请输入：\n");
-    fgets(input, 10, stdin);
-    size_t len = strlen(input);
-    if (input[len-1] == '\n') {
-        input[len-1] = '\0';
-    }
+    fgets(content, 50, pFile);
     
-    printf("你输入的是：%s\n",input);
+    printf("%s\n",content);
+    
+    fclose(pFile);
+    
+    
+//    char input[10];
+//    
+//    printf("请输入：\n");
+//    fgets(input, 10, stdin);
+//    size_t len = strlen(input);
+//    if (input[len-1] == '\n') {
+//        input[len-1] = '\0';
+//    }
+//    
+//    printf("你输入的是：%s\n",input);
     
     
 //    
