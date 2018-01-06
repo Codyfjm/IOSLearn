@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>06-内存管理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>12-指针.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>822532D11FFFC2130011DF42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>822532DC1FFFD3910011DF42</key>
 		<dict>
 			<key>primary</key>
 			<true/>
