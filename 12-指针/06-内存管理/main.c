@@ -37,6 +37,9 @@
         在堆中申请的字节有值，但是是垃圾值
         释放空间
  
+    3.calloc函数：申请的字节的数据会自动清零
+    4，realloc函数：扩容
+ 
  */
 
 #include <stdio.h>
@@ -45,20 +48,24 @@
 int main(int argc, const char * argv[]) {
     
     
-    int* p1 = malloc(120);
+    int* arr = calloc(10, sizeof(int));
+    int* p1 = calloc(10, sizeof(int));
     
-    if (p1) {
-        //申请成功
-        for (int i=0; i<30; i++) {
-            p1[i] = i*10;
-        }
-        
-        for (int i=0; i<30; i++) {
-            printf("p1[%d]=%d\n",i,p1[i]);
-        }
-        free(p1);
+    for (int i=0; i<10; i++) {
+        arr[i] = (i+1)*10;
     }
     
+    int* arr1 = realloc(arr, 115);
+    
+    for (int i=0; i<10; i++) {
+//        arr1[i] = (i+1)*10;
+        
+        printf("%d\n",arr1[i]);
+        
+    }
+    
+    printf("arr = %p\n",arr);
+    printf("arr1 = %p\n",arr1);
     
     
 //    
