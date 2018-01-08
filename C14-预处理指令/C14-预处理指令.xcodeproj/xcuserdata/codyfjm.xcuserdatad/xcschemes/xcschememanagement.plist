@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>03-带参数的宏.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>C14-预处理指令.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>82F35EED200208AA004DAEDD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82F6E8BB2003BB2D00352D53</key>
 		<dict>
 			<key>primary</key>
 			<true/>
