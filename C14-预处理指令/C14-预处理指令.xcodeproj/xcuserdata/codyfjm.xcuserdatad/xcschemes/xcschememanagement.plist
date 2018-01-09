@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>04-条件编译指令.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>C14-预处理指令.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>82F6E8BB2003BB2D00352D53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82F6E8C62003BFF400352D53</key>
 		<dict>
 			<key>primary</key>
 			<true/>

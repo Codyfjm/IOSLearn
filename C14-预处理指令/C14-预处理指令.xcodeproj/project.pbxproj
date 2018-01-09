@@ -11,6 +11,7 @@
 		82F35EE62001FFB2004DAEDD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82F35EE52001FFB2004DAEDD /* main.c */; };
 		82F35EF1200208AA004DAEDD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82F35EF0200208AA004DAEDD /* main.c */; };
 		82F6E8BF2003BB2D00352D53 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82F6E8BE2003BB2D00352D53 /* main.c */; };
+		82F6E8CA2003BFF400352D53 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82F6E8C92003BFF400352D53 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		82F6E8C52003BFF400352D53 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +71,8 @@
 		82F35EF0200208AA004DAEDD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82F6E8BC2003BB2D00352D53 /* 03-带参数的宏 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-带参数的宏"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F6E8BE2003BB2D00352D53 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82F6E8C72003BFF400352D53 /* 04-条件编译指令 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-条件编译指令"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F6E8C92003BFF400352D53 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82F6E8C42003BFF400352D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +121,7 @@
 				82F35EE42001FFB2004DAEDD /* 01-预处理指令概述 */,
 				82F35EEF200208AA004DAEDD /* 02-宏定义 */,
 				82F6E8BD2003BB2D00352D53 /* 03-带参数的宏 */,
+				82F6E8C82003BFF400352D53 /* 04-条件编译指令 */,
 				82F35ED62001FEFA004DAEDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +133,7 @@
 				82F35EE32001FFB2004DAEDD /* 01-预处理指令概述 */,
 				82F35EEE200208AA004DAEDD /* 02-宏定义 */,
 				82F6E8BC2003BB2D00352D53 /* 03-带参数的宏 */,
+				82F6E8C72003BFF400352D53 /* 04-条件编译指令 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +168,14 @@
 				82F6E8BE2003BB2D00352D53 /* main.c */,
 			);
 			path = "03-带参数的宏";
+			sourceTree = "<group>";
+		};
+		82F6E8C82003BFF400352D53 /* 04-条件编译指令 */ = {
+			isa = PBXGroup;
+			children = (
+				82F6E8C92003BFF400352D53 /* main.c */,
+			);
+			path = "04-条件编译指令";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +249,23 @@
 			productReference = 82F6E8BC2003BB2D00352D53 /* 03-带参数的宏 */;
 			productType = "com.apple.product-type.tool";
 		};
+		82F6E8C62003BFF400352D53 /* 04-条件编译指令 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F6E8CD2003BFF400352D53 /* Build configuration list for PBXNativeTarget "04-条件编译指令" */;
+			buildPhases = (
+				82F6E8C32003BFF400352D53 /* Sources */,
+				82F6E8C42003BFF400352D53 /* Frameworks */,
+				82F6E8C52003BFF400352D53 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-条件编译指令";
+			productName = "04-条件编译指令";
+			productReference = 82F6E8C72003BFF400352D53 /* 04-条件编译指令 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,6 +287,9 @@
 					82F6E8BB2003BB2D00352D53 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					82F6E8C62003BFF400352D53 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 82F35ED02001FEFA004DAEDD /* Build configuration list for PBXProject "C14-预处理指令" */;
@@ -259,6 +308,7 @@
 				82F35EE22001FFB2004DAEDD /* 01-预处理指令概述 */,
 				82F35EED200208AA004DAEDD /* 02-宏定义 */,
 				82F6E8BB2003BB2D00352D53 /* 03-带参数的宏 */,
+				82F6E8C62003BFF400352D53 /* 04-条件编译指令 */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				82F6E8BF2003BB2D00352D53 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F6E8C32003BFF400352D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F6E8CA2003BFF400352D53 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +492,20 @@
 			};
 			name = Release;
 		};
+		82F6E8CB2003BFF400352D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82F6E8CC2003BFF400352D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -478,6 +550,15 @@
 			buildConfigurations = (
 				82F6E8C02003BB2D00352D53 /* Debug */,
 				82F6E8C12003BB2D00352D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F6E8CD2003BFF400352D53 /* Build configuration list for PBXNativeTarget "04-条件编译指令" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F6E8CB2003BFF400352D53 /* Debug */,
+				82F6E8CC2003BFF400352D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
