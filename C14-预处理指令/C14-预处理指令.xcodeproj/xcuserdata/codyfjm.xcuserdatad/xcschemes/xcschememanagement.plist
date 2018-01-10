@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>07-static与extern.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>C14-预处理指令.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -32,6 +37,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>82CF0C9B20066E520060CE8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>82F35ED42001FEFA004DAEDD</key>
 		<dict>
 			<key>primary</key>
