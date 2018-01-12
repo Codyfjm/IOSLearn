@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>10-模块开发学生管理系统.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>C14-预处理指令.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -37,6 +42,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>82428AC02007C8F700D81FCD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>82CF0C9B20066E520060CE8F</key>
 		<dict>
 			<key>primary</key>
