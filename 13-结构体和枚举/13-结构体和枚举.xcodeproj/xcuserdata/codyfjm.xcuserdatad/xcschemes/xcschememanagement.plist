@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>03-结构体的基本使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>13-结构体和枚举.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>82E1A54B200BB65200972266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82E1A556200BBEE600972266</key>
 		<dict>
 			<key>primary</key>
 			<true/>
