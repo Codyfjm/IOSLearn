@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82CC9066200E38CD00024427 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CC9065200E38CD00024427 /* main.c */; };
+		82CC9071200E5A3100024427 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CC9070200E5A3100024427 /* main.c */; };
 		82E1A54F200BB65200972266 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82E1A54E200BB65200972266 /* main.c */; };
 		82E1A55A200BBEE600972266 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82E1A559200BBEE600972266 /* main.c */; };
 		82F5B1FA2009BC41007559ED /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82F5B1F92009BC41007559ED /* main.c */; };
@@ -16,6 +17,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		82CC9061200E38CD00024427 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		82CC906C200E5A3100024427 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -65,6 +75,8 @@
 /* Begin PBXFileReference section */
 		82CC9063200E38CD00024427 /* 04-结构体的基本使用下 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-结构体的基本使用下"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CC9065200E38CD00024427 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		82CC906E200E5A3100024427 /* 05-结构体数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-结构体数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CC9070200E5A3100024427 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82E1A54C200BB65200972266 /* 02-指向函数的指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-指向函数的指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E1A54E200BB65200972266 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		82E1A557200BBEE600972266 /* 03-结构体的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-结构体的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +89,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		82CC9060200E38CD00024427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CC906B200E5A3100024427 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,6 +141,14 @@
 			path = "04-结构体的基本使用下";
 			sourceTree = "<group>";
 		};
+		82CC906F200E5A3100024427 /* 05-结构体数组 */ = {
+			isa = PBXGroup;
+			children = (
+				82CC9070200E5A3100024427 /* main.c */,
+			);
+			path = "05-结构体数组";
+			sourceTree = "<group>";
+		};
 		82E1A54D200BB65200972266 /* 02-指向函数的指针 */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +173,7 @@
 				82E1A54D200BB65200972266 /* 02-指向函数的指针 */,
 				82E1A558200BBEE600972266 /* 03-结构体的基本使用 */,
 				82CC9064200E38CD00024427 /* 04-结构体的基本使用下 */,
+				82CC906F200E5A3100024427 /* 05-结构体数组 */,
 				82F5B1F72009BC41007559ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,6 +186,7 @@
 				82E1A54C200BB65200972266 /* 02-指向函数的指针 */,
 				82E1A557200BBEE600972266 /* 03-结构体的基本使用 */,
 				82CC9063200E38CD00024427 /* 04-结构体的基本使用下 */,
+				82CC906E200E5A3100024427 /* 05-结构体数组 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +225,23 @@
 			name = "04-结构体的基本使用下";
 			productName = "04-结构体的基本使用下";
 			productReference = 82CC9063200E38CD00024427 /* 04-结构体的基本使用下 */;
+			productType = "com.apple.product-type.tool";
+		};
+		82CC906D200E5A3100024427 /* 05-结构体数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CC9072200E5A3100024427 /* Build configuration list for PBXNativeTarget "05-结构体数组" */;
+			buildPhases = (
+				82CC906A200E5A3100024427 /* Sources */,
+				82CC906B200E5A3100024427 /* Frameworks */,
+				82CC906C200E5A3100024427 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-结构体数组";
+			productName = "05-结构体数组";
+			productReference = 82CC906E200E5A3100024427 /* 05-结构体数组 */;
 			productType = "com.apple.product-type.tool";
 		};
 		82E1A54B200BB65200972266 /* 02-指向函数的指针 */ = {
@@ -278,6 +324,9 @@
 					82CC9062200E38CD00024427 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					82CC906D200E5A3100024427 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					82E1A54B200BB65200972266 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -309,6 +358,7 @@
 				82E1A54B200BB65200972266 /* 02-指向函数的指针 */,
 				82E1A556200BBEE600972266 /* 03-结构体的基本使用 */,
 				82CC9062200E38CD00024427 /* 04-结构体的基本使用下 */,
+				82CC906D200E5A3100024427 /* 05-结构体数组 */,
 			);
 		};
 /* End PBXProject section */
@@ -319,6 +369,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CC9066200E38CD00024427 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CC906A200E5A3100024427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CC9071200E5A3100024427 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +423,20 @@
 			name = Debug;
 		};
 		82CC9068200E38CD00024427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82CC9073200E5A3100024427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82CC9074200E5A3100024427 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +586,14 @@
 			buildConfigurations = (
 				82CC9067200E38CD00024427 /* Debug */,
 				82CC9068200E38CD00024427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82CC9072200E5A3100024427 /* Build configuration list for PBXNativeTarget "05-结构体数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CC9073200E5A3100024427 /* Debug */,
+				82CC9074200E5A3100024427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>05-结构体数组.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>13-结构体和枚举.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>82CC9062200E38CD00024427</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82CC906D200E5A3100024427</key>
 		<dict>
 			<key>primary</key>
 			<true/>
