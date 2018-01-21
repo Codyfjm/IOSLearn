@@ -39,6 +39,16 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>08-结构体与函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>09-枚举的使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>13-结构体和枚举.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -47,6 +57,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>822F323C2012285500589411</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>822F324720148C3300589411</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>82C5397D200FAB3C0000937B</key>
 		<dict>
 			<key>primary</key>
