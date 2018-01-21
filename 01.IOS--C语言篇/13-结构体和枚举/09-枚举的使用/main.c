@@ -24,17 +24,21 @@
 
 #include <stdio.h>
 
+enum Direction
+{
+    East,
+    West,
+    South,
+    North
+};
+
 int main(int argc, const char * argv[]) {
-   
-    enum Direction
-    {
-        East,
-        West,
-        South,
-        North
-    };
     
     enum Direction dir = South;
+    
+    //有多大
+    int size = sizeof(dir);
+    printf("size = %d\n",size);
     
     printf("%d\n",dir);
     
