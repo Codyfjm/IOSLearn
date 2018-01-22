@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8215B37C2016161C0050CF86 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8215B37B2016161C0050CF86 /* main.c */; };
 		822F32402012285500589411 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 822F323F2012285500589411 /* main.c */; };
 		822F324B20148C3300589411 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 822F324A20148C3300589411 /* main.c */; };
 		822F32562014AEAD00589411 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 822F32552014AEAD00589411 /* main.c */; };
@@ -21,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8215B3772016161C0050CF86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		822F323B2012285500589411 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +133,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8215B3792016161C0050CF86 /* 11-学生管理系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-学生管理系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8215B37B2016161C0050CF86 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		822F323D2012285500589411 /* 08-结构体与函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-结构体与函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		822F323F2012285500589411 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		822F324820148C3300589411 /* 09-枚举的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-枚举的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +160,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8215B3762016161C0050CF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		822F323A2012285500589411 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +247,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8215B37A2016161C0050CF86 /* 11-学生管理系统 */ = {
+			isa = PBXGroup;
+			children = (
+				8215B37B2016161C0050CF86 /* main.c */,
+			);
+			path = "11-学生管理系统";
+			sourceTree = "<group>";
+		};
 		822F323E2012285500589411 /* 08-结构体与函数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,11 +271,12 @@
 			path = "09-枚举的使用";
 			sourceTree = "<group>";
 		};
-		822F32542014AEAD00589411 /* typedef */ = {
+		822F32542014AEAD00589411 /* 10-typedef */ = {
 			isa = PBXGroup;
 			children = (
 				822F32552014AEAD00589411 /* main.c */,
 			);
+			name = "10-typedef";
 			path = typedef;
 			sourceTree = "<group>";
 		};
@@ -313,7 +341,8 @@
 				82C5397F200FAB3C0000937B /* 07-结构体嵌套 */,
 				822F323E2012285500589411 /* 08-结构体与函数 */,
 				822F324920148C3300589411 /* 09-枚举的使用 */,
-				822F32542014AEAD00589411 /* typedef */,
+				822F32542014AEAD00589411 /* 10-typedef */,
+				8215B37A2016161C0050CF86 /* 11-学生管理系统 */,
 				82F5B1F72009BC41007559ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -332,6 +361,7 @@
 				822F323D2012285500589411 /* 08-结构体与函数 */,
 				822F324820148C3300589411 /* 09-枚举的使用 */,
 				822F32532014AEAD00589411 /* typedef */,
+				8215B3792016161C0050CF86 /* 11-学生管理系统 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -355,6 +385,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8215B3782016161C0050CF86 /* 11-学生管理系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8215B37D2016161C0050CF86 /* Build configuration list for PBXNativeTarget "11-学生管理系统" */;
+			buildPhases = (
+				8215B3752016161C0050CF86 /* Sources */,
+				8215B3762016161C0050CF86 /* Frameworks */,
+				8215B3772016161C0050CF86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11-学生管理系统";
+			productName = "11-学生管理系统";
+			productReference = 8215B3792016161C0050CF86 /* 11-学生管理系统 */;
+			productType = "com.apple.product-type.tool";
+		};
 		822F323C2012285500589411 /* 08-结构体与函数 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 822F32432012285500589411 /* Build configuration list for PBXNativeTarget "08-结构体与函数" */;
@@ -551,6 +598,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cody;
 				TargetAttributes = {
+					8215B3782016161C0050CF86 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					822F323C2012285500589411 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -609,11 +659,20 @@
 				822F323C2012285500589411 /* 08-结构体与函数 */,
 				822F324720148C3300589411 /* 09-枚举的使用 */,
 				822F32522014AEAD00589411 /* typedef */,
+				8215B3782016161C0050CF86 /* 11-学生管理系统 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8215B3752016161C0050CF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8215B37C2016161C0050CF86 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		822F32392012285500589411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -705,6 +764,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8215B37E2016161C0050CF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8215B37F2016161C0050CF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		822F32412012285500589411 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -941,6 +1014,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8215B37D2016161C0050CF86 /* Build configuration list for PBXNativeTarget "11-学生管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8215B37E2016161C0050CF86 /* Debug */,
+				8215B37F2016161C0050CF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		822F32432012285500589411 /* Build configuration list for PBXNativeTarget "08-结构体与函数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -966,6 +1047,7 @@
 				822F32582014AEAD00589411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82C53984200FAB3C0000937B /* Build configuration list for PBXNativeTarget "07-结构体嵌套" */ = {
 			isa = XCConfigurationList;

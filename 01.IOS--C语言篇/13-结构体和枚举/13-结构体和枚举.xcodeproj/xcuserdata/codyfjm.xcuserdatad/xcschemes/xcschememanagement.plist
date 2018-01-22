@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>11-学生管理系统.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>13-结构体和枚举.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -62,6 +67,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8215B3782016161C0050CF86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>822F323C2012285500589411</key>
 		<dict>
 			<key>primary</key>
